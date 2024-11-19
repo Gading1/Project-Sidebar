@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="../fontAwesome/all.min.css" />
+    <link rel="stylesheet" href="../fontAwesome/fontawesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" onclick="openNav()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar__title">
+        <h1>Coding <span>Addict</span></h1>
+        <button class="cls-toggle" onclick="closeNav()">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <nav>
+        <ul>
+          <li class="home"><a href="">Home</a></li>
+          <li class="about"><a href="">About</a></li>
+          <li class="project"><a href="">Projects</a></li>
+          <li class="contact"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="sidebar__media">
+        <ul>
+          <a href="" alt="facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="" alt="twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="" alt="behance">
+            <i class="fa-brands fa-behance"></i>
+          </a>
+          <a href="" alt="linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="" alt="diamond">
+            <i class="fa-solid fa-diamond"></i>
+          </a>
+        </ul>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
